@@ -21,15 +21,15 @@ def main():
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
   print """%s
-  __  __ ___    ___                                   
- |  \/  |   \  / __|_ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %sabilseno11%s
- | |\/| | |) | \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/AbilSeno%s
- |_|  |_|___/  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %sanoncybfakeplayers%s
+    ___                                   
+  / __|_ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %Faizul boften%s
+  \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/mrkontol444%s
+  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %cyberxxx77%s
                    |_|                                 %sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
-  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (8888xx) : "%(pu,me,pu,pu))
+  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (+62xxxx) : "%(pu,me,pu,pu))
   if len(nom) < 5:
     print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
     input()
@@ -38,7 +38,7 @@ def input():
     input()
   else:
     global jum
-    jum = int(raw_input("%s[%s?%s] %sMasukkan jumlah spam : "%(pu,me,pu,pu)))
+    jum = int(raw_input("%s[%s?%s] %sMasukkan jumlahnya : "%(pu,me,pu,pu)))
     main()
 #-------------------------------SPAM Function-------------------------------------------
 def asakita():
